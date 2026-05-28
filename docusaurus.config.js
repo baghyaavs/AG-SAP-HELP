@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AG SAP Help',
-  tagline: 'Welcome to AG SAP Help Portal',
+  tagline: 'Welcome to the AG SAP Help Portal',
   favicon: 'img/aglogo.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://baghyaavs.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/AG-SAP-HELP',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'baghyaavs', // Usually your GitHub org/user name.
+  projectName: 'AG-SAP-HELP', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/baghyaavs/AG-SAP-HELP',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/baghyaavs/AG-SAP-HELP',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -86,18 +86,18 @@ const config = {
         title: 'AG SAP Help',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/ag logo.jpg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'PRODUCTS',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'WHATS NEW', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/baghyaavs/AG-SAP-HELP',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,46 +107,40 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'DISCLAIMER',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'PRIVACY STATEMENT',
+                to: '/docs/intro',
               },
             ],
           },
-          {
-            title: 'More',
+           {
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'TERMS OF USE',
+                to: '/docs/intro',
               },
             ],
           },
+           {
+            items: [
+              {
+                label: 'COOKIE PREFERENCES',
+                to: '/docs/intro',
+              },
+            ],
+          },
+         
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} AG SAP HELP, Inc. BAGHYAAR.`,
       },
       prism: {
         theme: prismThemes.github,
