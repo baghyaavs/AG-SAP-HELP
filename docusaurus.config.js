@@ -78,7 +78,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/ag_cover.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -109,7 +109,7 @@ const config = {
           {
             items: [
               {
-                label: 'DISCLAIMER',
+                label: 'Disclaimer',
                 to: '/docs/intro',
               },
             ],
@@ -117,7 +117,7 @@ const config = {
           {
             items: [
               {
-                label: 'PRIVACY STATEMENT',
+                label: 'Privacy Statement',
                 to: '/docs/intro',
               },
             ],
@@ -125,7 +125,7 @@ const config = {
            {
             items: [
               {
-                label: 'TERMS OF USE',
+                label: 'Terms Of Use',
                 to: '/docs/intro',
               },
             ],
@@ -133,7 +133,7 @@ const config = {
            {
             items: [
               {
-                label: 'COOKIE PREFERENCES',
+                label: 'Cookie Preferences',
                 to: '/docs/intro',
               },
             ],
