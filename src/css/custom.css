@@ -28,3 +28,17 @@
   --ifm-color-primary-lightest: #c4d109;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.card {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  transition: 0.2s;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+}
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #0070f3;
+}

@@ -1,11 +1,13 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
-}
+.card {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  transition: 0.2s;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+}
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #0070f3;
 }

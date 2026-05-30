@@ -16,8 +16,32 @@
   }
 }
 
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.searchBar {
+  width: 600px;
+  max-width: 90%;
+  padding: 14px 20px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.searchBar:focus {
+  border-color: #0070f3;
+}
+
+
+
+

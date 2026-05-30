@@ -72,7 +72,9 @@ const config = {
         },
       }),
     ],
-  ],
+  ], 
+
+ 
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -90,19 +92,23 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'PRODUCTS',
+            items: [ { label: 'SAP ABAP', to: '/docs/sap-abap/intro'},
+                      { label: 'SAP MM', to: '/docs/sap-abap/intro'},
+                      { label: 'SAP PM', to: '/docs/sap-abap/intro'},
+                      { label: 'SAP FICO', to: '/docs/sap-abap/intro'},
+            ]
           },
-          {to: '/blog', label: 'WHATS NEW', position: 'left'},
+          {to: '/blog', label: 'WHAT`S NEW', position: 'left'},
           {
             href: 'https://github.com/baghyaavs/AG-SAP-HELP',
             label: 'GitHub',
             position: 'right',
           },
+        
         ],
-      },
+      }, 
       footer: {
         style: 'dark',
         links: [
@@ -147,6 +153,9 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
 };
+
+
 
 export default config;

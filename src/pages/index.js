@@ -15,15 +15,24 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
+        <p className="hero__subtitle">{siteConfig.tagline}</p> 
+        <div className={styles.buttons}> 
+          <input 
+          id="home-search"
+          type="search"
+          placeholder="Search AG SAP Help..."
+          className={styles.searchBar}
+          onClick={() => {
+             const searchButton = document.querySelector('.DocSearch-Button');
+             if (searchButton) { 
+              searchButton.click();
+              }
+            }} />
+
+</div>
+
+
+    </div>
     </header>
   );
 }
@@ -32,8 +41,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title= " AG SAP Help Portal">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
