@@ -94,7 +94,7 @@ const config = {
           {
             position: 'left',
             label: 'PRODUCTS',
-            items: [ { label: 'SAP ABAP', to: '/docs/sap-abap/intro'},
+            items: [ { label: 'SAP ABAP', to: '/docs/SAP ABAP/Introduction'},
                       { label: 'SAP MM', to: '/docs/sap-abap/intro'},
                       { label: 'SAP PM', to: '/docs/sap-abap/intro'},
                       { label: 'SAP FICO', to: '/docs/sap-abap/intro'},
