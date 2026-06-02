@@ -1,0 +1,14 @@
+# Function Module
+
+In SAP ABAP, a Function Module is a standalone, reusable code routine stored in a central system-wide library.
+It possesses a fixed, defined data interface and operates within its own dedicated memory area to prevent unexpected side effects across applications.
+
+# Key Characteristics:
+- **Transaction Code:** Managed and built entirely inside the SE37 transaction code (Function Builder).
+- **Containers:** Must always belong to a Function Group, which acts as a logical collection of related modules and global data.
+- **Global Access:** Unlike local subroutines, any function module can be called system-wide by any other ABAP program.
+
+# Three Types of Function Modules:
+- **Normal Function Module:** : Executes synchronously on the local system where it is called. It cannot be triggered from an external network or a separate SAP system.
+- **Remote-Enabled Function Module (RFC):** : Can be executed across different SAP landscapes or by external platforms. It provides the technical foundation for BAPIs (Business Application Programming Interfaces).
+- **Update Function Module:** : Handles database operations (like creating, updating, or deleting records) asynchronously. It groups multiple changes into a single collective unit to ensure complete committing or rolling back of data.
