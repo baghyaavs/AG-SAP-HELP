@@ -1,0 +1,61 @@
+
+# Types of ABAP Programs
+
+ABAP supports multiple types of programs categorized by their execution behavior. These are broadly divided into two categories:
+
+---
+
+## Executable Programs
+
+Users can directly execute these programs or schedule them for background processing.
+
+### Examples:
+
+- **Reports**
+  - Used for data retrieval and analysis  
+  - Accept user input parameters  
+  - Output is displayed in list format  
+
+- **Module Pools (Dynpros)**
+  - Designed for complex user interactions  
+  - Consist of multiple screens (like a wizard)  
+  - Include screen flow logic (PBO/PAI)  
+
+---
+
+## Non-Executable Programs
+
+These programs cannot be executed directly. They act as reusable components or containers for code and definitions used by other programs.
+
+### Types:
+
+- **INCLUDE Modules**
+  - Simple source code files  
+  - Included in ABAP programs during generation  
+
+- **Subroutine Pools**
+  - Collections of reusable subroutines (`FORM` routines)  
+  - Called from other programs  
+
+- **Function Groups**
+  - Containers for function modules  
+  - Provide reusable procedures callable from other programs  
+
+- **Object Classes**
+  - Define data (attributes) and behavior (methods)  
+  - Used for object-oriented programming (similar to Java classes)  
+
+- **Interfaces**
+  - Contain method declarations without implementation  
+  - Used to achieve polymorphism and loose coupling  
+
+- **Type Pools**
+  - Repository objects containing data types and constants  
+  - Shared across multiple programs  
+
+---
+
+## Summary
+
+- **Executable Programs** → Directly run by users  
+- **Non-Executable Programs** → Support and reuse components within other programs  

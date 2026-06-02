@@ -1,0 +1,104 @@
+# ABAP Syntax and Concepts
+## Data Types and Variables
+
+ABAP supports both **predefined** and **user-defined** data types, enabling flexible storage and variable declaration.
+
+---
+
+## Built-in Data Types
+
+Below are standard ABAP data types:
+
+- **I** – Integer (whole numbers)  
+- **P** – Packed decimal (precise decimal values; used for currency/quantities)  
+- **F** – Floating point (scientific calculations)  
+- **N** – Character numeric (digits only)  
+- **C** – Character (fixed-length strings)  
+- **D** – Date  
+- **T** – Time  
+- **X** – Hexadecimal (raw byte values)  
+- **STRING** – Variable-length character strings  
+- **XSTRING** – Variable-length raw byte arrays  
+
+---
+
+## User-Defined Data Types
+
+Custom data types can be created using ABAP Dictionary objects:
+
+- Structures  
+- Data Elements  
+- Tables  
+- Views  
+- Interfaces  
+- Classes (Objects)  
+
+Dates and times can also be handled flexibly using integers or character strings.
+
+---
+
+## Variable Declaration
+
+Variables must be declared before use.
+
+### Traditional Declaration
+
+```abap
+DATA: COUNTER TYPE I,
+      VALIDITY TYPE I VALUE 60,
+      LASTNAME (20) TYPE C.
+```
+
+## ABAP Objects (Object-Oriented Programming)
+
+**ABAP Objects** is an object-oriented extension of the ABAP language that enables developers to apply modern OOP principles, resulting in more **modular, reusable, and maintainable code**.
+
+It has been fully integrated into ABAP since **version 4.6C** and is completely compatible with traditional procedural programming.
+
+## Key Concepts
+
+Developers can combine procedural and object-oriented approaches in the same program.
+
+Core elements include:
+
+- Objects  
+- Classes  
+- Methods  
+- Attributes  
+- Object References  
+- Interfaces  
+
+## OOP Principles in ABAP
+
+ABAP Objects supports the fundamental principles of object-oriented programming:
+
+- **Encapsulation**
+Bundling data and the methods that operate on it within a class while restricting direct access to internal components.
+
+- **Inheritance**
+Allows a new class to inherit properties and behavior from an existing class, supporting **code reuse** and hierarchical structure.
+
+- **Polymorphism**
+Enables objects to behave differently based on the context or the class they belong to, even when accessed through the same interface.
+
+
+## Transactions
+
+A **transaction** in ABAP refers to:
+
+- A specific program  
+- A sequence of screens  
+- A business process execution  
+
+You can start processes and functions by entering a **transaction code (T-code)** in the command field, allowing quick and direct access.
+
+### Common Transaction Codes
+
+- **SE38** – ABAP Editor (program development)  
+- **SE09** – Transport Organizer (manage transport requests)  
+- **SE11** – ABAP Dictionary (data object definitions)  
+- **SE16N** – Table Viewer (display table contents)  
+- **SE24** – Class Builder (object-oriented development)  
+- **SE37** – Function Builder (function module development)  
+- **ST22** – Dump Analysis (analyze runtime errors)  
+

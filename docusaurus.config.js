@@ -95,9 +95,9 @@ const config = {
             position: 'left',
             label: 'PRODUCTS',
             items: [ { label: 'SAP ABAP', to: '/docs/SAP ABAP/Introduction'},
-                      { label: 'SAP MM', to: '/docs/sap-abap/intro'},
-                      { label: 'SAP PM', to: '/docs/sap-abap/intro'},
-                      { label: 'SAP FICO', to: '/docs/sap-abap/intro'},
+                      { label: 'SAP MM', to: '/docs/SAP MM/intro'},
+                      { label: 'SAP PM', to: '/docs/SAP PM/intro'},
+                      { label: 'SAP FICO', to: '/docs/SAP FICO/intro'},
             ]
           },
           {to: '/blog', label: 'WHAT`S NEW', position: 'left'},
