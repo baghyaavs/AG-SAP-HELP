@@ -1,0 +1,8 @@
+{
+  "label": "SAP MM",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "SAP MM (Materials Management) is a core functional module in the SAP ERP and SAP S/4HANA systems. It manages procurement, inventory, and material movement to ensure supply chain continuity, preventing shortages while reducing overall procurement and storage costs" 
+  }
+}

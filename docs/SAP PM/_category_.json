@@ -1,0 +1,8 @@
+{
+  "label": "SAP PM",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "SAP Plant Maintenance (PM) is an essential enterprise application used to manage equipment reliability, optimize inspection rounds, and control repair costs. "
+  }
+}

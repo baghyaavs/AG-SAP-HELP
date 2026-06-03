@@ -8,6 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, #260ccf, #083281);
 }
 
 @media screen and (max-width: 996px) {
@@ -36,10 +37,13 @@
   border-radius: 30px;
   border: 1px solid #ccc;
   outline: none;
+  box-shadow: 0 4px 20px rgba(173, 18, 18, 0.1);
 }
 
 .searchBar:focus {
-  border-color: #0070f3;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(214, 142, 7, 0.3);
+  border-color: #e4b416;
 }
 
 

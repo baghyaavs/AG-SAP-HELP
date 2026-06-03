@@ -1,0 +1,8 @@
+{
+  "label": "SAP FICO",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "SAP FICO (Financial Accounting and Controlling) is a core module within the SAP ERP and SAP S/4HANA systems. It is designed to manage an enterprise's financial data, handle statutory reporting, and drive internal cost management."
+  }
+}
